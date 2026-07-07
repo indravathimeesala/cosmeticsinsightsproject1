@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cosmetics Insights Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Insights</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+        }
+
+        .container{
+            text-align:center;
+            background:white;
+            padding:50px;
+            border-radius:15px;
+            box-shadow:0 4px 15px rgba(0,0,0,0.2);
+            max-width:600px;
+        }
+
+        h1{
+            color:#d63384;
+            font-size:3rem;
+            margin-bottom:20px;
+        }
+
+        p{
+            color:#555;
+            font-size:1.1rem;
+            margin-bottom:30px;
+            line-height:1.6;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:15px 35px;
+            background:#d63384;
+            color:white;
+            text-decoration:none;
+            border-radius:30px;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#b0256c;
+            transform:scale(1.05);
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Cosmetics Insights Dashboard</h1>
-  <div class='tableauPlaceholder' id='viz1783427568818' style='position: relative'>
-    <noscript><a href='#'><img alt='Cosmetics Insights Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CosmeticsInsights_17834274964890&#47;CosmeticsInsights&#47;1_rss.png' style='border: none' /></a>
-    </noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' /><param name='name' value='CosmeticsInsights_17834274964890&#47;CosmeticsInsights' /><param name='tabs' value='no' /><param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CosmeticsInsights_17834274964890&#47;CosmeticsInsights&#47;1.png' /> <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1783427568818');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <div class="container">
+        <h1>Cosmetics Insights</h1>
+
+        <p>
+            Explore cosmetic product trends, brand performance,
+            pricing analysis, category distribution, and consumer insights
+            through an interactive Tableau dashboard.
+        </p>
+
+        <a class="btn"
+           href="https://public.tableau.com/views/CosmeticsInsights_17834274964890/CosmeticsInsights"
+           target="_blank">
+            Get Insights
+        </a>
+    </div>
 
 </body>
 </html>
