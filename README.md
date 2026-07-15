@@ -5,8 +5,8 @@ Navigating Cosmetics Trends and Consumer Insights with Tableau
 This project analyzes cosmetics trends and consumer insights using tableau.
 
 ## Live Demo
-https://indravathimeesala.github.io/Cosmetic-Insights-/
-
+ https://indravathimeesala.github.io/cosmeticsinsightsproject1/
+ 
 ## GitHub Repository
 https://github.com/indravathimeesala/cosmeticsinsightsproject1.git
 
