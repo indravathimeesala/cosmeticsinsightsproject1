@@ -8,7 +8,7 @@ This project analyzes cosmetics trends and consumer insights using tableau.
 https://indravathimeesala.github.io/Cosmetic-Insights-/
 
 ## GitHub Repository
-https://github.com/indravathimeesala/Cosmetic-Insights-.git
+https://github.com/indravathimeesala/cosmeticsinsightsproject1.git
 
 ## Tableau Public Dashboard
 https://public.tableau.com/views/CosmeticsInsights_17834274964890/CosmeticsInsights?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
